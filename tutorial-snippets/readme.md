@@ -1,4 +1,4 @@
-# Each file is a step from the tutorial
+# Each file is a section from the tutorial:
 
 https://react-tutorial.app/
 
