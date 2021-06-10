@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.course-section{
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  width: 90%;
+}
+.course-section h3{
+  border-bottom: 2px solid #09ceff;
+  color: #09ceff;
+}
+
+a {  
+  text-decoration: none;
+  color:#ff9100;
+}
+
+pre {
+  background-color: #1b1b1b;
+  font-size: 16px;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#placeholder-img {  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(./images/gh.png);  
+  background-size: contain;
+  align-self: center;
+}

@@ -1,0 +1,17 @@
+.github-profile {
+	margin: 1rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    max-width: 400px;
+}
+.info {
+display: inline-block;
+margin-left: 12px;
+}		
+.name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
