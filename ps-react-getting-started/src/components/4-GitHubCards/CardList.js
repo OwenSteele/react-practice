@@ -3,7 +3,7 @@ import Card from "./Card.js";
 
 const CardList = (props) => {
     return (<div>
-        <Card />
+        {props.profiles.map(profile => <Card key={profile.id} {...profile} />)}
     </div>);
 }
 
