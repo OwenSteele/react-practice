@@ -3,6 +3,7 @@ import Basics from "./components/Basics.js";
 import ModernJs from "./components/ModernJs.js";
 import Overview from "./components/Overview.js";
 import GitHubCards from "./components/GitHubCards.js";
+import StarMatchGame from "./components/StarMatchGame.js";
 import React from "react";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Basics />
         <ModernJs />
         <GitHubCards />
+        <StarMatchGame />
       </div>
     </div>
   );

@@ -1,0 +1,30 @@
+.available {
+    transition: .5s; 
+}
+.used {
+    opacity: 0.3;
+    transition: 2s;
+}
+.used:hover {
+    text-decoration: none;
+}
+.valid {
+    background-color: #4ec200;
+    color: #ffffff;
+    transition: .5s;    
+}
+.invalid {
+    background-color: #ff0022;
+    color: #ffffff;
+    transition: .5s;  
+}
+
+.btn {
+    border-radius: 5px;
+    transition: .7s;
+}
+.btn:hover {
+    color: #ffae00;
+    font-weight: bolder;
+    transition: .3s;
+}

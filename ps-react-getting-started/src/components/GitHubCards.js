@@ -1,6 +1,7 @@
 import React from "react";
 import CardList from "./4-GitHubCards/CardList.js";
 import Form from "./4-GitHubCards/Form.js";
+import CardCode from "./4-GitHubCards/CardCode.js";
 
 class GitHubCards extends React.Component {    
 
@@ -21,6 +22,7 @@ class GitHubCards extends React.Component {
         <p>Built using class components</p>
         <Form onSubmit={this.addNewProfile}/>
         <CardList profiles={this.state.profiles}/>
+        <CardCode />
         </div>);
     };
 }
