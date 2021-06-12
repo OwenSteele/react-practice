@@ -9,7 +9,7 @@ A repo for learning and practicing React skills and knowhow
 * this is from an online text-based tutorial with basic concepts:
 
 
-## 1. [Pluralsight - React: Getting started](../master/tutorial-snippets/)
+## 1. [Pluralsight - React: Getting started](../master/ps-react-getting-started/)
 
 * Comprehensive course from PS
 
