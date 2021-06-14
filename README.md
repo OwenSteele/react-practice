@@ -28,4 +28,4 @@ A repo for learning and practicing React skills and knowhow
 
 **My code for this course is display in the form of a React App itself**
 
-[**Deployed on gh-pages**](https://owensteele.github.io/react-practice/ps-react-getting-started)
+[**Deployed on gh-pages**](https://owensteele.github.io/react-practice)
