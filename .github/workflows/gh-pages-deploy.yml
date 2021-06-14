@@ -4,7 +4,7 @@ on:
   push:
     branches: [ pages-ps ]
   pull_request:
-    branches: [ master ]
+    branches: [ pages-ps ]
 
 jobs:
   build:
@@ -32,12 +32,12 @@ jobs:
 
     - name: Deploy
       run: |
-        git config --global user.name $user_name
-        git config --global user.email $user_email
+        git config --global user.name OwenSteele
+        git config --global user.email owenfacebook@hotmail.co.uk
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
       env:
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
+        user_name: 'OwenSteele'
+        user_email: 'owenfacebook@hotmail.co.uk'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
